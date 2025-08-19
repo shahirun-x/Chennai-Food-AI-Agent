@@ -1,0 +1,31 @@
+id,restaurant_name,cuisine,location_area,rating,specialty_dish,price_range,is_vegetarian
+1,Saravana Bhavan,South Indian,T. Nagar,4.5,Ghee Roast Dosa,Moderate,TRUE
+2,Nair Mess,South Indian,Triplicane,4.8,Mutton Meals,Affordable,FALSE
+3,Dindigul Thalappakatti,Biryani,Anna Nagar,4.3,Mutton Biryani,Moderate,FALSE
+4,Annalakshmi Restaurant,South Indian,Chetpet,4.6,Vegetarian Thali,Expensive,TRUE
+5,Murugan Idli Shop,South Indian,Besant Nagar,4.4,Ghee Podi Idli,Affordable,TRUE
+6,The Marina,Seafood,Nungambakkam,4.5,Fish Curry Meals,Expensive,FALSE
+7,Ponnusamy Hotel,Chettinad,Royapettah,4.2,Chicken Chettinad,Moderate,FALSE
+8,Buhari Hotel,Multi-Cuisine,Mount Road,4.1,Chicken 65,Moderate,FALSE
+9,Sangeetha Veg Restaurant,South Indian,Adyar,4.3,Masala Dosa,Affordable,TRUE
+10,Kaidi Kitchen,Multi-Cuisine,Mylapore,4,Paneer Butter Masala,Expensive,TRUE
+11,Coal Barbecues,Barbecue,Velachery,4.7,Live Grill Buffet,Expensive,FALSE
+12,Zaitoon,Arabian,Anna Nagar,4.2,Shawarma,Moderate,FALSE
+13,Ratna Cafe,South Indian,Triplicane,4.6,Filter Coffee & Sambar Idli,Affordable,TRUE
+14,Amelie's Cafe & Creamery,Cafe & Desserts,Alwarpet,4.5,Salted Caramel Cheesecake,Expensive,TRUE
+15,Nasi and Mee,Pan-Asian,Nungambakkam,4.4,Chicken Satay,Expensive,FALSE
+16,Savoury Sea Shell,Arabian,Anna Nagar,4.1,Grilled Chicken,Moderate,FALSE
+17,Aasife & Brothers Biriyani,Biryani,St. Thomas Mount,4,Chicken Dum Biryani,Moderate,FALSE
+18,Royal Indianaa,South Indian,The Accord,4.5,Royal Veg Thali,Expensive,TRUE
+19,Madras Pavilion,Multi-Cuisine,ITC Grand Chola,4.8,Luxury Buffet,Expensive,FALSE
+20,Writer's Cafe,Cafe,Gopalapuram,4.3,Hot Chocolate,Moderate,TRUE
+21,Burma Burma,Burmese,Nungambakkam,4.7,Samosa Soup (Samusa Thoke),Expensive,TRUE
+22,Malgudi - The Savera Hotel,South Indian,Mylapore,4.4,Appam with Stew,Expensive,FALSE
+23,Ente Keralam,Kerala,Poes Garden,4.3,Avial,Expensive,FALSE
+24,Dakshin,South Indian,Crowne Plaza,4.6,Prawn Curry,Expensive,FALSE
+25,Toscano,Italian,Nungambakkam,4.5,Wood Fired Pizza,Expensive,FALSE
+26,Pumpkin Tales,Continental,Alwarpet,4.2,Avocado Toast,Moderate,TRUE
+27,Krishnavillasam,South Indian,Nungambakkam,4.4,7 Course Meal,Expensive,TRUE
+28,Amma Chettinadu Restaurant,Chettinad,T. Nagar,4,Vanjaram Fish Fry,Affordable,FALSE
+29,Shri Rajasthani Dhaba,North Indian,Kilpauk,3.9,Rajasthani Thali,Affordable,TRUE
+30,Ciclo Cafe,Cafe,Kotturpuram,4.1,Quinoa Salad,Moderate,TRUE
