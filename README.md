@@ -45,7 +45,7 @@ A Google API Key for the Gemini model. You can get one from Google AI Studio.
 Installation & Setup
 Clone the repository:
 
-git clone https://github.com/your-username/chennai-food-chatbot.git
+git clone https://github.com/shahirun-x/chennai-food-chatbot.git
 cd chennai-food-chatbot
 
 Install the required Python packages:
