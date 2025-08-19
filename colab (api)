@@ -1,0 +1,58 @@
+# Step 1: Install the necessary libraries
+!pip install -q -U google-generativeai pandas
+
+# Step 2: Import the libraries and set up the AI
+import google.generativeai as genai
+import pandas as pd
+from google.colab import userdata
+
+# Get our secret API key
+api_key = userdata.get('GOOGLE_API_KEY')
+genai.configure(api_key=api_key)
+
+# Step 3: Load our restaurant data
+# The 'try...except' block will help us catch the error if the file is missing.
+try:
+    df = pd.read_csv('chennai_restaurants.csv')
+    print("Successfully loaded the Chennai restaurants data!")
+    print(df.head()) # Shows the first 5 rows to confirm
+except FileNotFoundError:
+    # This message will only print if the file is not found.
+    print("ERROR: File not found! Please upload 'chennai_restaurants.csv' using the folder icon on the left.")
+    df = None # Set df to None so the rest of the code doesn't crash
+
+# Step 4: Only proceed if the data was loaded successfully
+if df is not None:
+    # Define our question and prepare the data for the AI
+    user_question = "I'm looking for a good place to eat some biryani, can you recommend one?"
+    restaurants_data_string = df.to_string()
+
+    # Step 5: Create the Prompt for the AI (with the new name!)
+    prompt = f"""
+    You are 'Love Language,' a friendly and romantic-themed conversational agent for a food app in Chennai. Your goal is to help users find food they will fall in love with.
+
+    **RULES:**
+    - Use ONLY the restaurant data provided below to answer the user's question.
+    - Do not make up any information or restaurants.
+    - Be friendly, a little poetic, and charming.
+
+    **RESTAURANT DATA:**
+    {restaurants_data_string}
+
+    **USER'S QUESTION:**
+    {user_question}
+
+    **YOUR RESPONSE:**
+    """
+
+    # Step 6: Ask the AI and get the response
+    try:
+        # Ask the AI and get the response
+        model = genai.GenerativeModel('gemini-1.5-flash-latest') # Changed model name here
+        response = model.generate_content(prompt)
+
+        # Step 7: Print the AI's answer!
+        print("\n\n--- Love Language's Response ---")
+        print(response.text)
+    except Exception as e:
+        print(f"An error occurred: {e}")
