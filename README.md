@@ -3,7 +3,9 @@
 Love Language - Your Chennai Foodie Companion
 Welcome to Love Language, an intelligent and charming conversational AI designed to help you discover the perfect dining experience in Chennai. Powered by Google's Gemini model, this chatbot acts as your personal foodie friend, offering personalized recommendations based on your cravings.
 
-(Note: You can take a screenshot of your running app and upload it to a site like Imgur to get a URL to display an image here!)
+![Screenshot 1](SS1%20Image)
+
+![Screenshot 2](SS2%20Image)
 
 Features
 Conversational Search: Simply chat in natural language to find restaurants. No need to click through complex filters.
